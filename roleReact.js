@@ -4,8 +4,7 @@ const setupCMD = "!createrolemessage"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Hacker", "Artist", "Public Relations", "Intern"];
 const reactions = ["💻", "🖌", "😃", "🆕"];
-const botToken = ""; /*You'll have to set this yourself; read more
-                     here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
+const botToken = "token"; 
 
 //Load up the bot...
 const Discord = require('discord.js');
@@ -19,7 +18,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`React below to get the **"${role}"** role!`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`React below to get the **"${role}"** role!`); 
     return messages;
 }
 
