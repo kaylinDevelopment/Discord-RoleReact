@@ -33,8 +33,7 @@ const botToken = ""; /*You'll have to set this yourself; read more
 
 Mandatory:
 
-- Fill in the yourID variable. You can get "yourID" in any discord channel by typing "\\@YOUR_NAME". For me, it would be \\@Night.
-
+- Fill in the yourID variable. You can get "yourID" in any discord channel by typing "\\@YOUR_NAME". For me, it would be \\@kaylin();
 - Change roles the to ones that are in your server.
 
 - Replace the reaction emojis with the ones of your choosing. 
